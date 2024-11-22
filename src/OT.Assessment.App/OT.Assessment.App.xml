@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OT.Assessment.App</name>
+    </assembly>
+    <members>
+        <member name="M:OT.Assessment.App.Controllers.PlayerController.CasinoWager(OT.Assesment.EntityFrameworkCore.Dto.Player.CasinoWagerDto)">
+            <summary>
+            Adds new wagers to the rabbitMQ que
+            </summary>
+            <param name="casinoWager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OT.Assessment.App.Controllers.PlayerController.GetPlayerWagers(System.Guid,System.Int32,System.Int32)">
+            <summary>
+            Returns a paginated list of the latest casino wagers for a specific player
+            </summary>
+            <param name="playerId"></param>
+            <param name="pageSize"></param>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OT.Assessment.App.Controllers.PlayerController.GetTopPlayerSpend(System.Int32)">
+            <summary>
+            Returns a list of the Top spending players by count
+            </summary>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
